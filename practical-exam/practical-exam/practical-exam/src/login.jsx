@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Lock, Mail, Eye, EyeOff } from 'lucide-react';
+
 
 const LoginPage = () => {
   const [credentials, setCredentials] = useState({
